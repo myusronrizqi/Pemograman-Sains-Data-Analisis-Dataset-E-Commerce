@@ -8,9 +8,6 @@ numpy
 # Library untuk menyimpan model
 joblib
 
-# Library sistem operasi
-os
-
 # Library untuk visualisasi data
 matplotlib
 seaborn
