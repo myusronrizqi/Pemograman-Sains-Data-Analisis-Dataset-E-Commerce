@@ -429,7 +429,7 @@ elif menu == "Insights & Knowledge":
     st.header("💡 Insights & Knowledge")
     st.write("""
     **Penjelasan:** Berikut adalah beberapa insight penting yang dapat diambil dari analisis data dan prediksi:
-    - **EDA:** Dataset memiliki distribusi yang cukup merata untuk variabel numerik, namun ada beberapa kolom dengan missing values yang perlu ditangani.
+    - **EDA:** Dataset memiliki distribusi yang cukup merata untuk variabel numerik.
     - **Seller Performance:** Penjual dengan jumlah pesanan tinggi cenderung memiliki pendapatan lebih besar dan waktu pengiriman lebih cepat.
     - **Revenue Prediction:** Model regresi Random Forest berhasil memprediksi pendapatan dengan akurasi yang baik (R² > 0.8).
     - **Seller Activity Classification:** Model XGBoost efektif dalam membedakan penjual aktif dan tidak aktif berdasarkan fitur transaksi.
