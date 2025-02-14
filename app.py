@@ -28,7 +28,7 @@ st.sidebar.title("📊 DASHBOARD HASIL ANALISIS")
 # Logo UNIKOM
 st.sidebar.image("logo_unikom_kuning.png", 
                  caption="Universitas Komputer Indonesia (UNIKOM)", 
-                 use_column_width=True)
+                 use_container_width=True)
 
 # Informasi Kelompok
 st.sidebar.markdown("""
