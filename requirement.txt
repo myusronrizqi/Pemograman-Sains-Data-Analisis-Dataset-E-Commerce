@@ -1,0 +1,29 @@
+# Library untuk manipulasi data
+import pandas as pd  # Digunakan untuk membaca, memanipulasi, dan menganalisis data tabular (seperti CSV)
+import numpy as np  # Digunakan untuk operasi numerik dan manipulasi array multidimensi
+
+# Library untuk menyimpan model
+import joblib  # Digunakan untuk menyimpan dan memuat model machine learning
+
+# Library sistem operasi
+import os  # Digunakan untuk operasi file dan direktori, seperti membaca file, membuat folder, dll.
+
+# Library untuk visualisasi data
+import matplotlib.pyplot as plt  # Digunakan untuk membuat plot dan visualisasi data
+import seaborn as sns  # Digunakan untuk membuat visualisasi statistik yang lebih menarik dan informatif
+
+# Library untuk preprocessing data
+from sklearn.preprocessing import StandardScaler, LabelEncoder  # Digunakan untuk penskalaan fitur numerik dan encoding label kategorikal
+from sklearn.model_selection import train_test_split, GridSearchCV  # Digunakan untuk membagi dataset dan mencari hyperparameter terbaik
+
+# Library untuk pemodelan dan evaluasi
+from sklearn.ensemble import RandomForestRegressor  # Digunakan untuk algoritma Random Forest (klasifikasi dan regresi)
+from xgboost import XGBClassifier  # Digunakan untuk algoritma XGBoost (klasifikasi)
+from sklearn.metrics import (
+    mean_squared_error, mean_absolute_error, r2_score,  # Digunakan untuk evaluasi model regresi
+    classification_report, accuracy_score, confusion_matrix,  # Digunakan untuk evaluasi model klasifikasi
+    roc_curve, auc, precision_recall_curve  # Digunakan untuk evaluasi performa model klasifikasi dengan kurva ROC dan Precision-Recall
+)
+
+# Library untuk penghitungan jarak geografis
+from haversine import haversine  # Digunakan untuk menghitung jarak antara dua titik berdasarkan koordinat geografis
