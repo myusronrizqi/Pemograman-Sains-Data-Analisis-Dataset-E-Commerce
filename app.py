@@ -26,7 +26,7 @@ st.set_page_config(page_title="E-Commerce Dashboard", layout="wide")
 st.sidebar.title("📊 DASHBOARD HASIL ANALISIS")
 
 # Logo UNIKOM
-st.sidebar.image("C:/Users/benja/Downloads/Semester 3/PSD/UAS DASHBOARD/Notebooks/logo_unikom_kuning.png", 
+st.sidebar.image("logo_unikom_kuning.png", 
                  caption="Universitas Komputer Indonesia (UNIKOM)", 
                  use_column_width=True)
 
@@ -56,9 +56,9 @@ menu = st.sidebar.radio(
 )
 
 # Path ke folder dataset dan model
-dataset_path = "C:/Users/benja/Downloads/Semester 3/PSD/UAS DASHBOARD/Notebooks/E-Commerce Public Dataset/Feature Engineered Dataset/feature_engineered_cleaned_sellers_dataset.csv"
-regression_model_path = "C:/Users/benja/Downloads/Semester 3/PSD/UAS DASHBOARD/Notebooks/E-Commerce Public Dataset/Models/random_forest_regression_model.pkl"
-classification_model_path = "C:/Users/benja/Downloads/Semester 3/PSD/UAS DASHBOARD/Notebooks/E-Commerce Public Dataset/Models/xgboost_classification_model.pkl"
+dataset_path = "E-Commerce Public Dataset/Feature Engineered Dataset/feature_engineered_cleaned_sellers_dataset.csv"
+regression_model_path = "E-Commerce Public Dataset/Models/random_forest_regression_model.pkl"
+classification_model_path = "E-Commerce Public Dataset/Models/xgboost_classification_model.pkl"
 
 # Load dataset
 @st.cache_data
